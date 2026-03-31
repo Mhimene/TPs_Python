@@ -12,6 +12,6 @@ Il faut le calculer sur pseudo_header + tcp_header + message, pas seulement sur 
 5. Le message n'était pas converti en bytes
 Un str Python ne peut pas être concaténé avec des bytes, j'ai ajouté un .encode().
 Lancer le code
-bashpython tp5_raw_socket.py
+bash python raw_socket.py
 
 Important ; Nécessite un terminal en administrateur sur Windows.
