@@ -1,6 +1,6 @@
-# =========================
+
 # EXERCICE 1 : NOMBRE DE BITS À 1
-# =========================
+
 def count_bits(n):
     count = 0
     while n > 0:
@@ -9,9 +9,9 @@ def count_bits(n):
     return count
 
 
-# =========================
+
 # EXERCICE 2 : SWAP BITS
-# =========================
+
 def swap_bits(n, i, j):
     # récupérer les bits i et j
     bit_i = (n >> i) & 1
@@ -25,9 +25,9 @@ def swap_bits(n, i, j):
     return n
 
 
-# =========================
-# PROGRAMME PRINCIPAL
-# =========================
+
+# MAIN
+
 if __name__ == "__main__":
 
     print("=== Exercice 1 : Nombre de bits à 1 ===")
